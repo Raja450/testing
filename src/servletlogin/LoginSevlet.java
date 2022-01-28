@@ -38,7 +38,7 @@ public class LoginSevlet extends HttpServlet {
 					
 					if(rs.next())
 					{
-						  System.out.println( rs.next() +"Passed checked by Raja");
+						  System.out.println( rs.next() +"Passed checked by Raja sha");
 					}
 					else
 					{
@@ -48,7 +48,6 @@ public class LoginSevlet extends HttpServlet {
 					
 					connet.close();
 					
-				}
 				catch (Exception e)
 				{
 						e.printStackTrace();
